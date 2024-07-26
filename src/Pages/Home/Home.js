@@ -71,7 +71,7 @@ const Home = () => {
             <h1>Welcome to Suhana Destination & Travels</h1>
             <p><GiPalmTree />...Explore the <FcGlobe /> with us...<MdOutlineFlight /></p>
             <p>Explore all that we offer in combinations of Jordan,Israel,Palestine & Egypt in our 10 days ultimate tour package. This versatile tour gives travellers the opportunity to visit many of the historical, cultural and religious sites within this region</p>
-            <Link to="/package">Book now!</Link>
+            <Link to="package">Book now!</Link>
           </div>
           <div data-aos="fade-right" className='heading-icons'>
             <span> <FiMail /></span>
@@ -139,35 +139,35 @@ const Home = () => {
               <img src={flag1} alt="" />
             </div>
             <h3>Israel</h3>
-            <span><Link to="/package"><FcNext /></Link></span>
+            <span><Link to="package"><FcNext /></Link></span>
           </div>
           <div data-aos="fade-up" className="popularplace">
             <div className="popularplace-img">
               <img src={flag2} alt="" />
             </div>
             <h3>Jordan</h3>
-            <span><Link to="/package"><FcNext /></Link></span>
+            <span><Link to="package"><FcNext /></Link></span>
           </div>
           <div data-aos="fade-up" className="popularplace">
             <div className="popularplace-img">
               <img src={flag3} alt="" />
             </div>
             <h3>Palestine</h3>
-            <span><Link to="/package"><FcNext /></Link></span>
+            <span><Link to="package"><FcNext /></Link></span>
           </div>
           <div data-aos="fade-up" className="popularplace">
             <div className="popularplace-img">
               <img src={flag4} alt="" />
             </div>
             <h3>Egypt</h3>
-            <span><Link to="/package"><FcNext /></Link></span>
+            <span><Link to="package"><FcNext /></Link></span>
           </div>
           <div data-aos="fade-up" className="popularplace">
             <div className="popularplace-img">
               <img src={flag5} alt="" />
             </div>
             <h3>Turkey</h3>
-            <span><Link to="/package"><FcNext /></Link></span>
+            <span><Link to="package"><FcNext /></Link></span>
           </div>
         </div>
       </div>
