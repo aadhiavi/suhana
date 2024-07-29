@@ -1,0 +1,109 @@
+.aboutus-container {
+    margin: 0 12px;
+
+    form {
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid rgb(255, 223, 163);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h1 {
+            font-weight: 600;
+            color: rgb(102, 66, 0);
+        }
+
+        input {
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 10px 15px;
+            font-size: 20px;
+            color: black;
+            border: 1px solid rgb(255, 223, 163);
+            background-color: rgb(255, 247, 223);
+        }
+
+        ::-webkit-input-placeholder {
+            font-size: 20px;
+            color: rgb(117, 99, 59);
+        }
+
+        input:hover {
+            background-color: rgb(255, 227, 174);
+            color: rgb(0, 0, 0);
+        }
+
+        textarea {
+            width: 100%;
+            border: none;
+            border: 1px solid rgb(255, 223, 163);
+            background-color: rgb(255, 247, 223);
+            outline: none;
+            font-size: 20px;
+            padding:10px 15px;
+            font-family: "Inter", sans-serif;
+        }
+        textarea:hover{
+            background-color: rgb(255, 227, 174);
+        }
+
+        button {
+            width: 150px;
+            padding: 12px 30px;
+            background-color: rgb(85, 85, 255);
+            color: white;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: blue;
+        }
+    }
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-content {
+    
+    min-height: 200px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+    h2{
+        font-weight: 500;
+        color: rgb(78, 51, 0);
+    }
+    button{
+        margin-top: 20px;
+        padding: 12px 25px;
+        background-color: wheat;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        font-size: 18px;
+        border: 1px solid rgb(185, 143, 63);
+    }
+    button:hover{
+        background-color: rgb(185, 143, 63);
+        color: white;
+    }
+}
