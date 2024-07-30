@@ -111,7 +111,6 @@ export const data = [
         description: "The Cairo Museum, officially known as the Egyptian Museum, is one of the most famous and important museums in the world, dedicated to showcasing the rich heritage and history of ancient Egypt.",
         link: "cairoMuseum",
     },
-
     {
         img: img10,
         title: "Canaan",
